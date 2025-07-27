@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
-import dummyUserImg from '../assets/image/2d_user_img.png'
+import React from "react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import dummyUserImg from "../assets/image/2d_user_img.png";
 
 export default function Contact() {
   return (
@@ -13,12 +13,58 @@ export default function Contact() {
 
       <div className="grid md:grid-cols-2 gap-10 items-center backdrop-blur-md bg-white/60 dark:bg-gray-800/50 rounded-3xl shadow-2xl overflow-hidden ring-1 ring-gray-200 dark:ring-gray-700">
         {/* Contact Form */}
-        <form className="space-y-5 p-10">
+
+        <form
+          action="https://formsubmit.co/pawanpradhantng@gmail.com"
+          method="POST"
+          className="space-y-5 p-10"
+        >
+          {/* Required for FormSubmit to identify the field */}
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            className="w-full p-4 rounded-xl border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white/70 dark:bg-gray-900/70 text-gray-800 dark:text-white transition"
+          />
+
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            className="w-full p-4 rounded-xl border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white/70 dark:bg-gray-900/70 text-gray-800 dark:text-white transition"
+          />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+            className="w-full p-4 rounded-xl border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white/70 dark:bg-gray-900/70 text-gray-800 dark:text-white transition"
+          ></textarea>
+
+          <button
+            type="submit"
+            className="w-full bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-700 hover:to-sky-800 text-white font-semibold py-3 rounded-xl shadow-lg transform transition-transform hover:scale-105"
+          >
+            ✉️ Send Message
+          </button>
+        </form>
+
+        {/* <form
+          action="https://formsubmit.co/pawanpradhantng@gmail.com"
+          method="POST"
+          className="space-y-5 p-10"
+        >
           <input
             type="text"
             placeholder="Your Name"
             className="w-full p-4 rounded-xl border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white/70 dark:bg-gray-900/70 text-gray-800 dark:text-white transition"
           />
+          <input type="hidden" name="_captcha" value="false" />
           <input
             type="email"
             placeholder="Your Email"
@@ -35,7 +81,7 @@ export default function Contact() {
           >
             ✉️ Send Message
           </button>
-        </form>
+        </form> */}
 
         {/* Cartoon Illustration */}
         <div className="p-5 flex flex-col items-center text-center">
@@ -45,7 +91,8 @@ export default function Contact() {
             className="w-60 h-60 object-contain mb-6"
           />
           <p className="text-gray-700 dark:text-gray-300 text-base">
-            I'm open to new opportunities and collaborations. Use the form or connect via social media below.
+            I'm open to new opportunities and collaborations. Use the form or
+            connect via social media below.
           </p>
           <div className="flex justify-center gap-6 mt-6 text-3xl">
             <a

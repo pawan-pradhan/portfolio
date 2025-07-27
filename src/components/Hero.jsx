@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import heroImg from '../assets/image/founder_img_11.png';
 
 const Hero = () => {
@@ -10,7 +11,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         
         {/* Left Content */}
-        <div className="flex-1 space-y-6">
+        {/* <div className="flex-1 space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Hi, I'm <span className="text-blue-600 dark:text-blue-500">Pawan Sharma</span>
           </h1>
@@ -24,6 +25,33 @@ const Hero = () => {
           >
             Download Resume
           </a>
+        </div> */}
+
+         {/* Left Content */}
+        <div className="flex-1 space-y-6">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900 dark:text-white">
+            Hi, I'm <span className="text-blue-600">Pawan Sharma</span>
+          </h1>
+          <p className="text-lg text-gray-700 dark:text-gray-300">
+            MERN Stack Developer with 2+ years of hands-on experience building full-stack web apps.
+          </p>
+          <div className="space-x-4">
+            <Link
+              to="/contact"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md shadow-md transition duration-300"
+            >
+              Contact Me
+            </Link>
+            {/* Optional second button if you want both later */}
+            <a
+              href="https://drive.google.com/file/d/1FgLCbHRLRBS-BuDNVS8wO3Vy8vD59dqF/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-blue-600 text-blue-600 dark:text-blue-400 px-6 py-3 rounded-md shadow-md hover:bg-blue-50 dark:hover:bg-gray-800 transition duration-300"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
 
         {/* Right Image */}
