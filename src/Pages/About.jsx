@@ -14,12 +14,21 @@ export default function About() {
             About Me
           </h2>
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-            I'm a passionate <span className="font-semibold text-sky-600 dark:text-sky-400">MERN Stack Developer</span> with hands-on experience in both frontend and backend development.
-            My journey began with HTML, CSS, JavaScript, jQuery, and PHP/MySQL, then deepened through <strong>6+ months of intense MERN training</strong>.
+            I'm a committed <span className="font-semibold text-sky-600 dark:text-sky-400">Full Stack Developer</span> with nearly <strong>2 years of professional experience</strong> in web development, focusing on scalable, high-performance applications.
           </p>
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-            I specialize in building fast, responsive, and scalable web apps using <strong>React, Node.js, Express, and MongoDB</strong>. I enjoy tackling real-world problems and continually sharpen my skills by learning and building.
+            I started my journey at <strong>CnEL India</strong>, where I worked as a full stack developer. My role involved building admin panels and APIs using <strong>Node.js, React, and MongoDB</strong>, along with significant contributions using <strong>PHP, MySQL, and SQL</strong> for web game platforms, Telegram bots, automation tools, and Canva-based solutions.
           </p>
+          <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            After that, I joined another company as a <strong>MERN Stack Developer</strong> where I worked on a large-scale <strong>eCommerce web and mobile app project</strong>. I was primarily responsible for the backend using <strong>Node.js</strong> and also supported the development of the <strong>React-based admin panel</strong>.
+          </p>
+          <p> - Pawan Sharma</p>
+          <p> Jaipur Rajasthan India, 302015</p>
+          <h3>Thanks for visite my portfolio!</h3>
+          {/* <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            I resigned from my last position 6 months ago and am currently seeking new opportunities to contribute and grow in the tech space.
+          </p> */}
+
         </div>
 
         {/* Right: Illustration */}

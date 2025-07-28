@@ -1,5 +1,6 @@
 import React from 'react';
 import ownerImg from "../assets/image/founder_img.jpg";
+import ownerDevImg from "../assets/image/founder_img_2.jpg";
 
 const owner = {
   name: 'Pawan Sharma',
@@ -9,25 +10,60 @@ const owner = {
 
 const teamMembers = [
   {
-    name: 'Rohit Kumar',
-    role: 'Frontend Developer (React)',
-    image: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    name: 'Pawan Sharma',
+    role: 'Full stack developer( MERN & PHP )' ,
+    image: ownerDevImg,
   },
   {
-    name: 'Anjali Mehta',
-    role: 'Backend Developer (Node.js)',
+    name: 'Jayesh Dahibhate',
+    role: 'Sr. Backend Developer (Node.js)',
+    image: 'https://randomuser.me/api/portraits/men/15.jpg',
+    // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
+  },
+  {
+    name: 'Vipin lakhawat',
+    role: 'Sr. Backend Developer (Node.js)',
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
   },
   {
-    name: 'Karan Verma',
-    role: 'UI/UX Designer',
+    name: 'Shreyansh sharma',
+    role: 'Sr. Frontend Developer (React)',
     image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
+  },
+  // {
+  //   name: 'A. Gupta',
+  //   role: 'Sr. Frontend Developer (React)',
+  //   image: 'https://randomuser.me/api/portraits/women/25.jpg',
+  //   // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png',
+  // },
+  {
+    name: 'K. Sain',
+    role: 'UI/UX Designer',
+    // image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    image: 'https://randomuser.me/api/portraits/men/96.jpg'
+
   },
   {
-    name: 'Simran Kaur',
-    role: 'QA Engineer',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    name: 'Avinash saini',
+    role: 'Full stack developer( Nuxt.js, NestJs, PHP )',
+    image: 'https://randomuser.me/api/portraits/men/75.jpg',
+    // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
+
   },
+  {
+    name: 'Pawan Jangir',
+    role: 'QA Engineer',
+    image: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
+  },
+  // {
+  //   name: 'A Sharma',
+  //   role: 'Graphics designer',
+  //   image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+  //   // image: 'https://cdn-icons-png.flaticon.com/512/149/149071.png'
+  // },
 ];
 
 export default function Team() {
