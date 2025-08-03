@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload } from 'react-icons/fa';
 
-import heroImg from '../assets/image/founder_img_11.png';
+// import heroImg from '../assets/image/founder_img_11.png';
+import heroImg from '../assets/image/2d_about_us_img.png'
 
 const Hero = () => {
   return (
