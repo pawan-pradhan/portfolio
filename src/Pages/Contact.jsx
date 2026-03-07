@@ -95,14 +95,14 @@ export default function Contact() {
             connect via social media below.
           </p>
           <div className="flex justify-center gap-6 mt-6 text-3xl">
-            <a
+            {/* <a
               href="https://wa.me/919460379517"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 hover:text-green-600 transition-transform hover:scale-125"
             >
               <FaWhatsapp />
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/airman_pawan"
               target="_blank"

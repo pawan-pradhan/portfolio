@@ -25,7 +25,7 @@ function App() {
       </main>
       <Footer />
       {/* WhatsApp Icon */}
-            <a
+            {/* <a
               href="https://wa.me/919460379517"
               target="_blank"
               rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function App() {
               title="Chat on WhatsApp"
             >
               <FaWhatsapp size={20} />
-            </a>
+            </a> */}
       
             {/* Instagram Icon */}
             <a
