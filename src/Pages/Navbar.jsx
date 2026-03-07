@@ -7,7 +7,7 @@ const menuList = [
   { menuName: "Home", path: "/" },
   { menuName: "About Us", path: "/about" },
   { menuName: "Contact Us", path: "/contact" },
-  { menuName: "Our Team", path: "/team" },
+  // { menuName: "Our Team", path: "/team" },
 ];
 
 function Navbar({ theme, setTheme }) {

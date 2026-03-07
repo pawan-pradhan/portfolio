@@ -38,7 +38,7 @@ const services = [
     ],
   },
   {
-    title: "DevOps & Deployment",
+    title: "Deployment",
     icon: "🚀",
     points: [
       "Git, GitHub, Vercel, Hostinger, GoDaddy",
@@ -46,15 +46,15 @@ const services = [
       "CI/CD & Deployment Best Practices",
     ],
   },
-  {
-    title: "SEO & Optimization",
-    icon: "📈",
-    points: [
-      "Search Engine Optimization (SEO)",
-      "Performance & Accessibility Checks",
-      "Meta Tags, Sitemaps, Robots.txt",
-    ],
-  },
+  // {
+  //   title: "SEO & Optimization",
+  //   icon: "📈",
+  //   points: [
+  //     "Search Engine Optimization (SEO)",
+  //     "Performance & Accessibility Checks",
+  //     "Meta Tags, Sitemaps, Robots.txt",
+  //   ],
+  // },
 ];
 
 const Services = () => {
